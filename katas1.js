@@ -1,38 +1,44 @@
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
+    let deUmaVinte = [];
+  for (deUmaVinte=1; deUmaVinte<=20; deUmaVinte++);
+  return deUmaVinte;
+  console.log(oneThroughTwenty());
     
 }
 
 //call function oneThroughTwenty
 
 function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
+  let numPar = [];
+  for (numPar=1; numPar<=20; numPar++);
+  if (numPar%2===0){
+  return numPar;
+  console.log(oneThroughTwenty());
+  }
 }
 
 //call function evensToTwenty
 
 function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let numimPar = [];
+  for (numimPar=1; numimPar<=20; numimPar++);
+  if (numimPar%2===0){
+  return numPar;
+  } else{
+    return numimPar;
+  }
+  console.log(oneThroughTwenty());
    
 }
 
 //call function oddsToTwenty
 
 function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let qdperf = [];
+  for (qdperf=0; qdperf<=100; qdperf++);
+  if (qdperf ^2===0){
+  return qdperf;
+    }
 
 }
 
