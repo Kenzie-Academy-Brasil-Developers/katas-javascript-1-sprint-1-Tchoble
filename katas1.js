@@ -1,101 +1,106 @@
 
-function oneThroughTwenty() {
-    let deUmaVinte = [];
-  for (deUmaVinte=1; deUmaVinte<=20; deUmaVinte++);
-  return deUmaVinte;
-  console.log(oneThroughTwenty());
-    
+//de 1 a 20
+
+umAte20(20)
+function umAte20(limite){
+for (let i = 1; i <= limite; i++) {
+console.log('Numero ',i);
+}
+return umAte20;
 }
 
-//call function oneThroughTwenty
-
-function evensToTwenty() {
-  let numPar = [];
-  for (numPar=1; numPar<=20; numPar++);
-  if (numPar%2===0){
-  return numPar;
-  console.log(oneThroughTwenty());
-  }
+//Numeros pares de 0 a 20
+parAte20(20)
+function parAte20(limite){
+for (let i = 0; i <= limite; i++) {
+if (i % 2 === 0)
+console.log(i, 'Numero Par');
+}
+return parAte20;
 }
 
-//call function evensToTwenty
 
-function oddsToTwenty() {
-  let numimPar = [];
-  for (numimPar=1; numimPar<=20; numimPar++);
-  if (numimPar%2===0){
-  return numPar;
-  } else{
-    return numimPar;
-  }
-  console.log(oneThroughTwenty());
-   
+
+
+//impares de 1 a 20
+
+imparAte20(20)
+function imparAte20(limite){
+for (let i = 1; i <= limite; i++) {
+if (i % 3 === 0)
+console.log(i, 'Numero impar');
+}
+return imparAte20;
 }
 
-//call function oddsToTwenty
 
-function multiplesOfFive() {
-  let qdperf = [];
-  for (qdperf=0; qdperf<=100; qdperf++);
-  if (qdperf ^2===0){
-  return qdperf;
-    }
 
+//de 5 a 100
+
+mtpAte100(100)
+function mtpAte100(limite){
+for (let i = 1; i <= limite; i++) {
+if (i % 5 === 0)
+console.log(i, 'Multiplo de 5');
 }
+return mtpAte100;
+}
+
 
 //call function multiplesOfFive
 
-function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+//Não consegui achar um resultado
+
+
+// conta de 20 a 1
+
+vinteAteUm(1)
+function vinteAteUm(limite){
+for (let i = 20; i >= limite; i--) {
+console.log('Numero ',i);
+}
+return vinteAteUm;
 }
 
-//call function squareNumbers
 
-function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+// numeros pares de 20 a 1
+
+
+
+parVinteAteUm(1)
+function parVinteAteUm(limite){
+for (let i = 20; i >= limite; i--) {
+if (i % 2 === 0)
+console.log(i, 'Numero Par');
+}
+return parVinteAteUm;
 }
 
-//call function countingBackwards
 
-function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+
+
+// impares de 20 a 1
+
+imparVinteAteUm(1)
+function imparVinteAteUm(limite){
+for (let i = 20; i >= limite; i--) {
+if (i % 3 === 0)
+console.log(i, 'Numero impar');
+}
+return imparVinteAteUm;
 }
 
-//call function evenNumbersBackwards
 
-function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+// multiplos de 100 a 5
+mtpInverso(1)
+function mtpInverso(limite){
+for (let i = 100; i >= limite; i--) {
+if (i % 5 === 0)
+console.log(i, 'Numero múltiplo de 5');
+}
+return mtpInverso;
 }
 
-//call function oddNumbersBackwards
+//numero multiplo inverso
 
-function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function multiplesOfFiveBackwards
-
-function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function squareNumbersBackwards
+//Não consegui achar um resultado
